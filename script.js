@@ -14,7 +14,7 @@ function getRandomColor() {
 startButton.addEventListener("click", function() {
     intervalId = setInterval(function() {
         document.body.style.backgroundColor = getRandomColor();
-    }, 1);
+    }, 500);
 });
 
 stopButton.addEventListener("click", function() {
